@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-import nox
+import nox # type: ignore
 
 PYTHON_ALL_VERSIONS = ["3.12", "3.11", "3.10", "3.9", "3.8"]
 PYTHON_DEFAULT_VERSION = "3.12"
